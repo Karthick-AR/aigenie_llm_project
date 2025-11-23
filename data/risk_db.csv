@@ -1,0 +1,40 @@
+id,clause_type,risk_level,text,notes
+1,service_levels,9,"Supplier resolves High Risk incidents within 30 days","Supplier SLA too weak compared to industry norms and Customer expectations of 1 day"
+2,service_levels,8,"Supplier resolves Medium Risk incidents within 60 days","Supplier SLA too slow; Customer requires 5 days"
+3,service_levels,7,"Supplier resolves Low Risk incidents within 90 days","Supplier SLA too slow; Customer requires 30 days"
+4,service_levels,9,"Supplier sets its own unilateral response timelines","Unacceptable unilateral SLA control by supplier"
+5,service_levels,9,"Supplier is not obligated to meet specific timeframes","Missing SLA deadlines is high operational risk"
+
+6,missing_clauses,10,"Contract lacks confidentiality clause","Major legal risk; sensitive data not protected"
+7,missing_clauses,10,"Contract lacks data protection clause","High risk especially for customer data processing"
+8,missing_clauses,9,"Contract lacks indemnification clause","Customer not protected from supplier wrongdoing"
+9,missing_clauses,9,"Contract lacks audit rights","Customer cannot verify compliance, major governance risk"
+10,missing_clauses,8,"Contract lacks limitation of liability","High legal exposure due to unlimited or undefined liability"
+11,missing_clauses,7,"Contract lacks insurance requirements","Supplier may not have coverage for operational/tech risks"
+
+12,indemnity,9,"Indemnity limited only to willful misconduct","Too narrow; should include negligence and breach"
+13,indemnity,8,"Supplier indemnity obligations missing or vague","Customer not protected from third-party claims"
+14,indemnity,7,"Indemnity excludes data breaches","High risk if data protection is involved"
+
+15,liability,9,"Supplier limits liability to extremely low cap","Unacceptable liability cap; customer exposure high"
+16,liability,9,"Liability excludes negligence","Very risky; standard contracts include negligence"
+17,liability,8,"Liability excludes confidentiality breaches","High risk if confidentiality is essential"
+
+18,confidentiality,8,"Confidentiality obligations missing","High contractual and regulatory risk"
+19,confidentiality,7,"Confidentiality clause is too generic or weak","No obligations for technical/organizational measures"
+
+20,data_protection,9,"Data breach notification missing","Critical for compliance"
+21,data_protection,8,"Supplier does not agree to follow customer instructions on data","GDPR/DP compliance risk"
+22,data_protection,8,"No reference to regulatory compliance obligations","Legal compliance risk"
+
+23,audit_rights,9,"Audit rights missing","Customer cannot verify compliance"
+24,audit_rights,8,"Audit limited to supplier discretion","One-sided in supplier favor"
+
+25,insurance,7,"Supplier does not maintain minimum insurance coverage","Could result in uninsured losses"
+26,insurance,8,"Supplier does not provide proof of insurance","Customer cannot validate coverage"
+
+27,scope,7,"Scope vague or not tied to measurable deliverables","Execution and expectation mismatch"
+28,scope,6,"SOW or deliverables unclear","Operational and quality risks"
+
+29,change_control,7,"Change control process missing","Changes may be uncontrolled or unilateral"
+30,change_control,6,"Change approvals unclear","Leads to disputes or scope creep"

@@ -1,0 +1,17 @@
+## Prefer binary wheels to avoid building heavy packages from source (e.g. NumPy)
+## Run: python -m pip install --upgrade pip setuptools wheel
+numpy
+langchain==0.3.0
+langchain-community==0.3.0
+langchain-core==0.3.0
+chromadb==0.5.23
+sentence-transformers==3.3.0
+transformers>=4.41.0,<5.0.0
+torch>=2.4.0
+pypdf
+python-docx
+docx2txt
+streamlit
+pandas
+tiktoken
+langchain-huggingface
